@@ -1,0 +1,4 @@
+category: X11
+requires: font-encodings fontconfig mkfontdir mkfontscale
+sdesc: "MS TrueType core fonts"
+ldesc: "MS TrueType core fonts"

@@ -1,0 +1,74 @@
+corefonts
+-------------------------------------------
+MS TrueType core fonts
+
+Build requirements:
+  cabextract-1.1-1
+  cygport-0.4.0-1
+  fontconfig-2.6.0-1
+
+Canonical homepage:
+  http://corefonts.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/corefonts/
+
+-------------------------------------------
+
+Build instructions:
+  unpack corefonts-1-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./corefonts-1-1.sh all
+
+This will create:
+  /usr/src/corefonts-1-1-src.tar.bz2
+  /usr/src/corefonts-1-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/doc/corefonts-1/licen.txt
+  /usr/share/doc/Cygwin/corefonts-1.README
+  /usr/share/fonts/TTF/andalemo.ttf
+  /usr/share/fonts/TTF/arial.ttf
+  /usr/share/fonts/TTF/arialbd.ttf
+  /usr/share/fonts/TTF/arialbi.ttf
+  /usr/share/fonts/TTF/ariali.ttf
+  /usr/share/fonts/TTF/ariblk.ttf
+  /usr/share/fonts/TTF/comic.ttf
+  /usr/share/fonts/TTF/comicbd.ttf
+  /usr/share/fonts/TTF/cour.ttf
+  /usr/share/fonts/TTF/courbd.ttf
+  /usr/share/fonts/TTF/courbi.ttf
+  /usr/share/fonts/TTF/couri.ttf
+  /usr/share/fonts/TTF/georgia.ttf
+  /usr/share/fonts/TTF/georgiab.ttf
+  /usr/share/fonts/TTF/georgiai.ttf
+  /usr/share/fonts/TTF/georgiaz.ttf
+  /usr/share/fonts/TTF/impact.ttf
+  /usr/share/fonts/TTF/times.ttf
+  /usr/share/fonts/TTF/timesbd.ttf
+  /usr/share/fonts/TTF/timesbi.ttf
+  /usr/share/fonts/TTF/timesi.ttf
+  /usr/share/fonts/TTF/trebuc.ttf
+  /usr/share/fonts/TTF/trebucbd.ttf
+  /usr/share/fonts/TTF/trebucbi.ttf
+  /usr/share/fonts/TTF/trebucit.ttf
+  /usr/share/fonts/TTF/verdana.ttf
+  /usr/share/fonts/TTF/verdanab.ttf
+  /usr/share/fonts/TTF/verdanai.ttf
+  /usr/share/fonts/TTF/verdanaz.ttf
+  /usr/share/fonts/TTF/webdings.ttf
+
+------------------
+
+Port Notes:
+
+----- version 1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:  http://cygwin-ports.sourceforge.net/
